@@ -97,7 +97,7 @@ console.log(final);
             <input type='text' placeholder='Quantity' value={quantity}onChange={(e)=>setQuantity(e.target.value)}/><br/>
             <button onClick={()=>addItem(food,quantity)}> Submit</button>
           </div>
-          <p>Menu list</p>
+          <p>Menu lists</p>
 
            <div className="menu-list">
            {foodItems.filter((el)=> el.food.toLowerCase().includes(food.toLowerCase())).map((el,ind)=>{
