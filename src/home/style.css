@@ -1,0 +1,189 @@
+.nav-container{
+  /* background: linear-gradient(109.6deg, rgb(102, 203, 149) 11.2%, rgb(39, 210, 175) 98.7%); */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 60px;
+    padding: 15px 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    /* color: antiquewhite; */
+}
+.nav-container h2{
+    font-size: 40px;
+    color: #560bad;
+    /* margin: 0px 20px; */
+    cursor: pointer;
+    font-family: "Mukta", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+.nav-container p{
+    font-family: "Mukta", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+}
+.body-container{
+    display: flex;
+}
+.form-container{
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container p{
+    color: rgb(36, 36, 177);
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+}
+.form-container input{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    /* outline: none; */
+    border: 1px solid rgb(49, 49, 49);
+
+}
+button {
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2em;
+    /* line-height: 2.5em; */
+    margin-left: 5px ;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: bolder;
+    background-color: #560bad;
+    color:white;
+    transition: all 0.3s ease ;
+   }
+   
+   /* button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+    */
+   button:hover {
+    color: #fff;
+
+   }
+/*    
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   } */
+   button:active{
+    transform: scale(0.9);
+   }
+   .menu-list{
+    min-width: 800px;
+     max-width: 800px;
+     max-height: 240px;
+     display: flex;
+     flex-wrap: wrap;
+    overflow-y: scroll;
+   }
+   .frist-part{
+    max-width: 800px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .frist-part>p{
+    font-family: "Mukta", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    color: red;
+   }
+   .second-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px;
+    min-width: 400px;
+    min-height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+   }
+   .logos h3{
+    color: rgb(36, 36, 177);
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+   }
+   .header p{
+    font-weight: bolder;
+   }
+    .header{
+    margin: 10px;
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    min-width: 350px;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    border-bottom: 3px solid rgba(255, 174, 0, 0.89); 
+   }
+   .logos{
+    display: flex;
+    align-items: center;
+   }
+.inner-cart{
+    min-height: 280px;
+    overflow-y: scroll;
+    border-bottom: 3px solid rgba(255, 174, 0, 0.89); 
+    
+}
+.inner-cart::-webkit-scrollbar {
+    display: none; 
+  }
+  .total{
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 0px 20px;
+    margin:0px 10px;
+    min-width: 280px;
+    display: flex;
+    justify-content: space-between;
+  }

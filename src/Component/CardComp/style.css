@@ -1,0 +1,24 @@
+.card-container{
+    max-width: 200px;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.card-container img{
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.inner-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.inner-content p{
+    font-size: 20px;
+    font-family: "Mukta", sans-serif;
+    font-style: normal;
+}

@@ -1,0 +1,25 @@
+.cart-container{
+    min-width: 350px;
+    text-align: start;
+    display: flex;
+    padding: 0px 20px;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    font-family: "Mukta", sans-serif;
+    font-weight: normal;
+    line-height: 18px;
+    /* gap: 20px; */
+    
+}
+.cart-container p{
+    display: flex;
+    margin-left: 0px;
+    align-items: flex-start;
+}
+.oneth{
+    display: flex;
+    gap: 10px;
+    min-width: 120px;
+}
